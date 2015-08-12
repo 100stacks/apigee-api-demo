@@ -1,0 +1,6 @@
+# validateResponse: true	# enforces schema when we are running APIs
+
+validateResponse: false 	# don't validate schemas
+docEndpoints:
+  raw: /swagger        # expose the swagger JSON and YAML at this endpoint
+#  docs: /swagger-docs  # expose swagger-docs browser UI on this endpoint
